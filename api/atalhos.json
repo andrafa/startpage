@@ -1,0 +1,83 @@
+[
+
+	[
+		["Noticias"],
+		[
+			{
+				"nome": "Jovem Nerd",
+				"link": "https://jovemnerd.com.br"
+			},
+			{
+				"nome": "G1",
+				"link": "https://g1.com.br"
+			}
+		]
+	],
+
+
+	[
+		["Redes Sociais"],
+		[		
+			{
+				"nome": "Reddit",
+				"link": "https://reddit.com"
+			},
+			{
+				"nome": "YouTube",
+				"link": "https://youtube.com"
+			},
+			{
+				"nome": "Twitter",
+				"link": "https://twitter.com/home"
+			},
+			{
+				"nome": "Instagram",
+				"link": "https://instagram.com/"
+			}
+		]
+	],
+
+
+	[
+		["Lojas"],
+		[
+			{
+			"nome": "Kabum",
+			"link": "https://kabum.com.br"
+			},
+			{
+				"nome": "Amazon",
+				"link": "https://amazon.com.br"
+			},
+			{
+				"nome": "Mercado Livre",
+				"link": "https://www.mercadolivre.com.br/"
+			},
+			{
+				"nome": "AliExpress",
+				"link": "https://pt.aliexpress.com/"
+			}
+		]
+	],
+
+
+	[
+		["Outros"],
+		[
+			{
+				"nome": "Gmail",
+				"link": "https://www.google.com/accounts/ServiceLogin"
+			},
+			{
+				"nome": "r/brasil",
+				"link": "https://reddit.com/r/brasil"
+			},
+			{
+				"nome": "Drive",
+				"link": "https://drive.google.com/drive/my-drive"
+			}
+		]
+
+	]
+
+]

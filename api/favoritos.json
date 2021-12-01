@@ -1,0 +1,30 @@
+[
+	{	
+		"fav": {
+			"nome": "youtube",
+			"link": "https://youtube.com",
+			"icone": "icon--youtube.svg"
+		}
+	},
+	{	
+		"fav": {
+			"nome": "reddit",
+			"link": "https://reddit.com",
+			"icone": "icon--reddit.svg"
+		}
+	},
+	{	
+		"fav": {
+			"nome": "fast",
+			"link": "https://fast.com",
+			"icone": "icon--fast.svg"
+		}
+	},
+	{	
+		"fav": {
+			"nome": "jovemnerd",
+			"link": "https://jovemnerd.com.br",
+			"icone": "icon--jn.svg"
+		}
+	}
+]

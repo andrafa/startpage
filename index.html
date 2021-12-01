@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="./src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./src/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>Nova Aba</title>
+</head>
+<body>
+	<div class="container-fluid h-100">
+		<div class="row h-100">
+
+			<!-- Imagem -->
+			<div id="fotos" class="col-md-6">
+				
+			</div>
+
+			<div class="col-md-6 pad-content d-flex justify-content-between flex-column text-center position-relative">
+				<!-- Aviso -->
+				<div id="aviso" class="aviso position-absolute">
+					
+				</div>
+				<!-- Cabeçalho -->
+				<div class="cabecalho d-flex w-100 justify-content-between align-items-center position-relative">
+					<h4 id="hora" class="horario"></h4>
+					<div id="temp" class="temperatura d-flex align-items-center" onclick="clickModal()"></div>
+					<div id="temp__modal" class="temperatura__modal position-absolute text-left"></div>
+				</div>
+
+				<!-- Conteudo -->
+				<div class="conteudo">
+					<p id="dia" class="dia"></p>
+
+					<!-- Pesquisa -->
+					<div class='searchBox pad-itens'>
+						<form autocomplete='off' class='search' action='https://duckduckgo.com/?q=' method='get'>
+							<div class='autocomplete position-relative'>
+								<img class="icon--pesquisar" src="./src/images/icon--duckduckgo.svg" alt="">
+								<input class="w-100" id='inputBox' class='inputBox' type='text' name='q' placeholder='Pesquisar' autofocus />
+							</div>
+						</form>
+					</div>
+
+					<!-- Atalhos icones -->
+					<div id="favoritos" class="atalhos__icones pad-itens d-flex justify-content-evenly"></div>
+
+					<!-- Atalhos principais -->
+					<div id="atalhos" class="atalhos__principais d-flex justify-content-around"></div><!-- /atalhos principais -->
+
+			</div><!-- /conteudo -->
+			
+			<div id="mensagens">
+				
+			</div>
+
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+	<script src="./src/js/main.js"></script>
+	<script src="./src/js/tempo.js"></script>
+</body>
+</html>
